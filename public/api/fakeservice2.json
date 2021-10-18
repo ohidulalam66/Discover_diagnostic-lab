@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "name": "ECG",
+    "image": "https://i.ibb.co/tCxMW8j/ecg-2.png",
+    "price": 120,
+    "decs": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.",
+    "description": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity.Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.These signals are recorded by a machine and are looked at by a doctor to see if they're unusual.An ECG may be requested by a heart specialist (cardiologist) or any doctor who thinks you might have a problem with your heart, including your GP.The test can be carried out by a specially trained healthcare professional at a hospital, a clinic or at your GP surgery.Despite having a similar name, an ECG isn't the same as an echocardiogram, which is a scan of the heart."
+}
