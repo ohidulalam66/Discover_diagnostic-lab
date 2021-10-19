@@ -28,7 +28,6 @@ const Register = () => {
                             <input className="btn-login d-block mx-auto" type="submit" value="Submit" />
                         </form>
                         <hr />
-                        <p className="text-center">or, social media reference</p>
                         <p className="text-center">Already have an account? <Link to="/login">Login Account</Link></p>
                     </div>
                 </div>
