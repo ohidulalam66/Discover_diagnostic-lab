@@ -1,0 +1,30 @@
+.login-container {
+    background: url("https://i.ibb.co/VNtbyHR/login.jpg");
+    height: 110vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5vh;
+}
+.right-container {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #ABD7E0;
+    -webkit-box-shadow: 14px 14px 28px #7d828e, -14px -14px 28px #ffffff;
+    box-shadow: 14px 14px 28px #7d828e, -14px -14px 28px #ffffff;
+}
+.input-field {
+    background: #ffffff5d;
+    border: none;
+    border-radius: 20px;
+}
+.btn-login {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn-login:hover {
+    background: #ABD7E0;
+    border: 1px solid white;
+}

@@ -1,0 +1,17 @@
+.footer-container {
+    background: #3A3C41;
+}
+.text-color {
+    color: rgba(255, 255, 255, 0.555);
+}
+.link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.icon-footer {
+    cursor: pointer;
+    font-size: 24px;
+}
+.icon-footer:hover {
+    color: #7070F0;
+}

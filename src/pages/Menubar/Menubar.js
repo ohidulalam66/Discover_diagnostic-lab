@@ -17,6 +17,12 @@ const Menubar = () => {
                                 <Link className="nav-link" aria-current="page" to="/home">Home</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/about">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contact">Contact</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/login">login</Link>
                             </li>
                         </ul>

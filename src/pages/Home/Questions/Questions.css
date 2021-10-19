@@ -1,3 +1,10 @@
-.questions {
-    color: black;
+.question-bg {
+    background: rgba(168, 179, 179, 0.096);
+}
+.question-header {
+    font-weight: 100;
+}
+.icon {
+    font-size: 50px;
+    color: rgb(112, 112, 240);
 }
