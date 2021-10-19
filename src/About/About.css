@@ -1,0 +1,14 @@
+.about-bg {
+    background-image: url("https://i.ibb.co/Bjdcgv1/service-bg.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-icons {
+    border: 2px solid black;
+}
+.contact-icon {
+    font-size: 25px;
+    color: red;
+}

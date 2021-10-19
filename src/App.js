@@ -12,7 +12,10 @@ import Footer from './pages/Footer/Footer';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import AuthProvider from './context/AuthProvider';
-import PrivateRoute from './Firebase/PrivateRoute/PrivateRouter';
+import PrivateRoute from './PrivateRoute/PrivateRouter';
+import About from './About/About';
+import Contact from './Contact/Contact';
+
 
 
 function App() {
@@ -31,6 +34,12 @@ function App() {
             <PrivateRoute path="/service/:serviceId">
               <ServiceDetails />
             </PrivateRoute>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
             <Route path="/login">
               <Login />
             </Route>
