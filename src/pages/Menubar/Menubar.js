@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './Menubar.css';
 
 const Menubar = () => {
+    const { user, logOut } = useAuth();
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -22,9 +24,17 @@ const Menubar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/login">login</Link>
-                            </li>
+                            {
+                                user.email ?
+                                    <li className="nav-item">
+                                        <Link to="/login" onClick={logOut}>Log out</Link>
+                                    </li>
+                                    :
+                                    <li className="nav-item">
+                                        <Link to="/login">Login</Link>
+                                    </li>
+                            }
+                            {user.email && <span>{user.displayName}</span>}
                         </ul>
                     </div>
                 </div>

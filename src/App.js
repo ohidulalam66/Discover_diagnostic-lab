@@ -11,35 +11,39 @@ import NotFound from './pages/NotFound/NotFound';
 import Footer from './pages/Footer/Footer';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Firebase/PrivateRoute/PrivateRouter';
 
 
 function App() {
   return (
     <>
-      <Router>
-        <Menubar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/service/:serviceId">
-            <ServiceDetails />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
-          </Route>
-          <Route exact path="*">
-            <NotFound />
-          </Route>
-        </Switch>
-      </Router>
-      <Footer />
+      <AuthProvider>
+        <Router>
+          <Menubar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <PrivateRoute path="/service/:serviceId">
+              <ServiceDetails />
+            </PrivateRoute>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/register">
+              <Register />
+            </Route>
+            <Route exact path="*">
+              <NotFound />
+            </Route>
+          </Switch>
+        </Router>
+        <Footer />
+      </AuthProvider>
     </>
   );
 }
