@@ -8,6 +8,7 @@
     padding-top: 5vh;
 }
 .right-container {
+    height: 100vh;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     background: #ABD7E0;

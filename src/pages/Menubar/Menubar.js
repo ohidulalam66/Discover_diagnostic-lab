@@ -34,7 +34,7 @@ const Menubar = () => {
                                         <Link to="/login">Login</Link>
                                     </li>
                             }
-                            {user.email && <span>{user.displayName}</span>}
+                            {user.email && <span className="px-2">{user.displayName || user.email}</span>}
                         </ul>
                     </div>
                 </div>

@@ -4,5 +4,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
+}
+.contact-box {
+    border-radius: 50px;
+    background: #BBECE6;
+    box-shadow: inset 34px 34px 67px #bebebe,
+            inset -34px -34px 67px #ffffff;
+}
+.contact-box:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
+.icon-contact {
+    font-size: 30px;
 }
