@@ -1,7 +1,7 @@
 ## DISCOVER DIAGNOSTIC LABORATORY 
 
 
-#### This website is built with react-router, firebase authentication and CDN bootstrap.This is a drawing course website.
+#### This website is built with react-router, firebase authentication and CDN bootstrap.This is a DIAGNOSTIC LABORATORY website.
 
 [Live link to this website](https://discover-diagnostic-lab.web.app/ "DISCOVER DIAGNOSTIC LABORATORY")
 
