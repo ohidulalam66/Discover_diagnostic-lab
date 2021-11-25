@@ -16,7 +16,7 @@ const Doctors = () => {
         <>
             <div className="doctors-container pb-5">
                 <div className="container">
-                    <h2 id="services" className="text-center my-5"><img src="https://i.ibb.co/CwFbCwJ/heart-beat-2.png" className="heart-beat" alt="" /> Meet Our <span className="fw-bold text-danger">Doctors</span> <img src="https://i.ibb.co/tZkdnKW/heart-beat.png" className="heart-beat" alt="" /></h2>
+                    <h2 id="services" className="text-center py-4"><img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /> Meet Our <span className="fw-bold text-danger">Doctors</span> <img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /></h2>
                     <div className="row g-4">
                         {
                             doctors.map(doctor =>

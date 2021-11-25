@@ -1,22 +1,22 @@
 [
     {
         "name": "Dr. Melisa Cardo, DO",
-        "image": "https://i.ibb.co/7CZMZ4q/doctor-1.png",
+        "image": "https://i.ibb.co/5LpHJy8/doctor-1.png",
         "specialist": "Cardiologist"
     },
     {
         "name": "Dr. Peter Pyrko, MD",
-        "image": "https://i.ibb.co/FnzycfN/doctor-2.png",
+        "image": "https://i.ibb.co/zP0fMVX/doctor-2.png",
         "specialist": "Orthopaedic"
     },
     {
         "name": "Dr. Tung Thai, MD",
-        "image": "https://i.ibb.co/N6LfPT1/doctor-3.png",
+        "image": "https://i.ibb.co/9VXgZrT/doctor-3.png",
         "specialist": " ENT"
     },
     {
         "name": "Dr. Steven Haris, MD",
-        "image": "https://i.ibb.co/xmGq0Zy/doctor-4.png",
+        "image": "https://i.ibb.co/NtCFTH0/doctor-4.png",
         "specialist": "Psychiatrists"
     }
 ]

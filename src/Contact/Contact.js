@@ -4,11 +4,11 @@ import './Contact.css';
 const Contact = () => {
     return (
         <>
-            <div className="contact-bg py-3">
+            <div className="py-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="https://i.ibb.co/z7rGyfs/medical-contact.jpg" className="w-100 py-5" alt="" />
+                            <img src="https://i.ibb.co/w7GSZCh/map.png" className="w-100 py-5" alt="" />
                         </div>
                         <div className="col-md-6">
                             <h3 className="text-center py-5 fw-bold">Discover Diagnostic  Laboratory (Pte) Ltd</h3>

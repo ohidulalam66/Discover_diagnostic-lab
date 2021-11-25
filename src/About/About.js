@@ -4,14 +4,14 @@ import './About.css';
 const About = () => {
     return (
         <>
-            <div className="about-bg py-5">
+            <div className="py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src="https://i.ibb.co/MZTDS0w/discover-1.jpg" className="img-fluid mb-5" alt="" />
-                            <img src="https://i.ibb.co/ZzJsZQB/discover-3.jpg" className="img-fluid mb-5" alt="" />
-                            <img src="https://i.ibb.co/wszrmk1/discover-4.jpg" className="img-fluid mb-5" alt="" />
-                            <img src="https://i.ibb.co/jHbxMC9/discover-2.jpg" className="img-fluid" alt="" />
+                            <img src="https://i.ibb.co/ZJp7bJy/360-F-189997513-Ed1kn-D0-L5-YNDfa-Zrk-Wtjhd-Nrx-Duwdevh.jpg" className="img-fluid mb-5" alt="" />
+                            <img src="https://i.ibb.co/r7tK00v/1594069096271-e-2159024400-v-beta-t-yw-DN5-Z19ro-FDnn6nad-N13ev-QR94w-H6-Ouh-Ay-Mm-W3-OCZI.jpg" className="img-fluid mb-5" alt="" />
+                            <img src="https://i.ibb.co/F7jcpXF/1083069577-s-for-page-34-poct.png" className="img-fluid mb-5" alt="" />
+                            <img src="https://i.ibb.co/D4C8Y8V/doctor-563428-340.jpg" className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-8 ms-auto">
                             <h3 className="fw-bold">About Us</h3>

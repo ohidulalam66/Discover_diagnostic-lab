@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container pt-5">
                     <div className="row">
                         <div className="col-md-4 col-12 text-start">
-                            <img src="https://i.ibb.co/86MnRyt/logo.png" className="img-fluid header-logo mb-3" alt="" />
+                            <img src="https://i.ibb.co/GJLL1Q4/logo.png" className="img-fluid header-logo mb-3" alt="" />
                             <p><span className="fw-bold">Discover Diagnostic Lab</span> is one of the leading private healthcare providers in Bangladesh having an impressive 'Reach', providing superior quality diagnostics services to its patients through a very efficient network of outreach centers and collection points located strategically across the greater Chittagong division.
                             </p>
                         </div>

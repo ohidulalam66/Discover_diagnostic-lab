@@ -17,9 +17,9 @@ const ServiceDetails = () => {
     }, [])
     return (
         <>
-            <div className="service-bg pb-5">
+            <div className="pb-5">
                 <div className="container">
-                    <h2 id="services" className="text-center text-danger pt-3"><img src="https://i.ibb.co/CwFbCwJ/heart-beat-2.png" className="heart-beat" alt="" /> Service Detail <img src="https://i.ibb.co/tZkdnKW/heart-beat.png" className="heart-beat" alt="" /></h2>
+                    <h2 id="services" className="text-center text-danger pt-3"><img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /> Service Detail <img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /></h2>
                     <hr />
                     <div className="row d-flex justify-content-evenly  align-items-center border-4">
                         <div className="col-md-6 col-12">

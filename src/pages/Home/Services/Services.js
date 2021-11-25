@@ -15,7 +15,7 @@ const Services = () => {
     return (
         <>
             <div className="container my-5">
-                <h2 id="services" className="text-center text-danger my-5"><img src="https://i.ibb.co/CwFbCwJ/heart-beat-2.png" className="heart-beat" alt="" /> Our Services <img src="https://i.ibb.co/tZkdnKW/heart-beat.png" className="heart-beat" alt="" /></h2>
+                <h2 id="services" className="text-center text-danger my-5"><img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /> Our Services <img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /></h2>
                 <div className="row g-4">
                     {
                         services.map(service =>
