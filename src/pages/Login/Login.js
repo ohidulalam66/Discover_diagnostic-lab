@@ -33,7 +33,7 @@ const Login = () => {
             <div className="login-container">
                 <div className="container">
                     <div className="py-4 right-container">
-                        <h2 className="text-center text-danger my-5"><img src="https://i.ibb.co/CwFbCwJ/heart-beat-2.png" className="heart-beat" alt="" /> Login <img src="https://i.ibb.co/tZkdnKW/heart-beat.png" className="heart-beat" alt="" /></h2>
+                        <h2 className="text-center text-danger my-5"><img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /> Login <img src="https://i.ibb.co/2Sk6cVx/rod-of-asclepius.png" alt="" /></h2>
                         <form onSubmit={handleUserLogin}>
                             <div className="mb-3 w-50 mx-auto">
                                 <label htmlFor="exampleFormControlInput1" className="form-label">Email:</label>

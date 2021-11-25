@@ -1,5 +1,5 @@
 .login-container {
-    background: url("https://i.ibb.co/VNtbyHR/login.jpg");
+    background: url("https://i.ibb.co/SV8BfDg/bg-mobile-personnel.jpg");
     height: 110vh;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -8,15 +8,13 @@
     padding-top: 5vh;
 }
 .right-container {
-    height: 100vh;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    background: #ABD7E0;
-    -webkit-box-shadow: 14px 14px 28px #7d828e, -14px -14px 28px #ffffff;
-    box-shadow: 14px 14px 28px #7d828e, -14px -14px 28px #ffffff;
+    border-radius: 20px;
+    background: #b7d3d36b;
+    -webkit-box-shadow: 14px 14px 28px #e0e1e485, -14px -14px 28px #ffffff;
+    box-shadow: 14px 14px 28px #7d828e, -14px -14px 28px #ffffff41;
 }
 .input-field {
-    background: #ffffff5d;
+    background: #ccc8c879;
     border: none;
     border-radius: 20px;
 }
@@ -26,6 +24,5 @@
     border-radius: 20px;
 }
 .btn-login:hover {
-    background: #ABD7E0;
-    border: 1px solid white;
+    background: #b7d3d3c2;
 }
